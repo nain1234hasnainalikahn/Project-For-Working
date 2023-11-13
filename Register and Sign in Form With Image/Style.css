@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    padding: 0;
+    background:url(image1.jpg);
+    width: 100%;
+}
+.Form1{
+    background: linear-gradient(rgb(255, 220, 66),rgb(0, 255, 234));
+    text-align: center;
+    transform:translate(-50%,-50%);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    box-shadow:0px 5px 25px ;
+    animation:account 2s alternate ;
+}
+@keyframes account{
+    10% {left: 50px;}
+}
+h2{
+    margin-bottom: 30px;
+    
+}
+input[type]{
+    margin-bottom: 5px;
+    outline:none;
+    background: none;
+    border:1px solid rgb(247, 6, 6);
+    font-weight: bold;
+    font-size: 15px;
+    padding: 5px;
+    text-align: center;
+    overflow: hidden;
+}
+button{
+    background: rgb(3, 139, 230);
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight:bolder;
+    cursor: pointer;
+    outline: none;
+}
+button:hover{
+    background-color: rgb(0, 106, 245);
+    animation:mysub 1s infinite;
+    
+}
+
